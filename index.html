@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./lib/peerjs.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>PeerTest</title>
+</head>
+<body>
+    <div class="control">
+        <h3 id="peerId"></h3>
+        <span class="connect">
+            <input id="remoteId" type="text">
+            <button id="connBtn" onclick="connect()">Connect</button>
+        </span>
+       
+    </div>
+    <div class="video">
+        <video class="remote" src=""></video>
+        <video class="local" src=""></video>
+        <div class="chat">
+            <div class="connect">
+                <ul id="contList">
+                </ul>
+            </div>
+            <span class="sendMsg">
+                <input id="sendText" type="text">
+                <button id="sendBtn" onclick="sendMsg()">Send</button>
+            </span>
+        </div>
+    </div>
+
+
+    <script src="./src/app.js"></script>
+</body>
+</html>

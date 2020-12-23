@@ -1,0 +1,52 @@
+video.remote {
+    display: inline-block;
+    width: 720px;
+    /* border: 1px solid red; */
+    box-shadow:2px 2px 5px #cecece
+}
+
+video.local {
+    position: absolute;
+    width: 180px;
+    height: 110px;
+    /* border: 1px solid blue; */
+    right: 525px;
+    top: 100px;
+}
+
+video{
+    height: 360px;
+}
+
+.control{
+    margin-bottom: 20px;
+}
+
+
+.chat {
+    display: inline-block;
+    height: 360px;
+    width: 400px;
+    /* border: 1px solid red; */
+    box-shadow:2px 2px 5px #cecece
+}
+.connect{
+    position: relative;
+    height: 340px;
+    overflow: scroll;
+    text-align: left;
+    font-size: xx-small;
+}
+
+.sendMsg{
+    display: inline-block;
+    position: relative;
+    bottom: 0px;
+    box-shadow:2px 2px 5px #cecece
+}
+
+body {
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
